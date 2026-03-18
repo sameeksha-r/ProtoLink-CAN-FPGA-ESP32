@@ -1,4 +1,4 @@
-//===== ESP32 UART Transmitter ===
+// ESP32 UART Transmitter 
 // Reads potentiometer value and sends it via Serial1 (UART)
 
 #define POT_PIN 35   // Analog pin for potentiometer (use GPIO 34, 35, 32, 33, 36, or 39)
