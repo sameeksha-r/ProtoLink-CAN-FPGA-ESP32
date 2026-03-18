@@ -1,15 +1,15 @@
 #include <Wire.h>
 #include <LiquidCrystal_I2C.h>
 
-// === LCD ===
+// LCD
 LiquidCrystal_I2C lcd(0x27, 16, 2);
 
-// === Motor Pins ===
+// Motor Pins 
 #define ENA 25
 #define IN1 26
 #define IN2 27
 
-// === PWM ===
+// PWM
 #define PWM_FREQ 1000
 #define PWM_RES  8
 
